@@ -1,0 +1,12 @@
+{
+  "name": "roomescapebot",
+   "description": "Room Escape Bot",
+  "version": "0.0.0",
+  "main": "app.js",
+  "scripts": {
+     "start": "node app.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.2.1"
+    }
+}
