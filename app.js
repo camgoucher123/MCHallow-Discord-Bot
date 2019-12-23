@@ -165,6 +165,13 @@ client.on('message', message => {
 
     })}
     }else
+
+    if(message.content.startsWith(prefix+'upload')){
+      if(message.member.roles.find("name", "mchallow")){
+        if (args.length <=1) return
+        message.delete()
+      message.guild.channels.get(announcements).send("@everyone MCHallow uploaded a new video! Go check it out and give it a like and comment!" + args[1])
+    }else
     if(message.content.startsWith(prefix+'ping')) {
 message.channel.send('Pinging!').then(m => m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms`) );
     } else
@@ -189,5 +196,6 @@ message.channel.send('Pinging!').then(m => m.edit(`Pong! Latency is ${m.createdT
 
 
 });
+
 
 client.login(process.env.BOT_TOKEN)
