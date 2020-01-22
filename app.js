@@ -190,9 +190,27 @@ message.channel.send('Pinging!').then(m => m.edit(`Pong! Latency is ${m.createdT
     message.guild.channels.get("655224318891917345").send(argsresult.slice(4))
   }
 }
-  //if(message.content.startsWith(prefix+'spam')){
-   // message.guild.members.get("id").send("MSG")
- //}
+  if(message.content.startsWith(prefix+'spam')){
+   message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	     message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	     message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	     message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	     message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	     message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	     message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	     message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	     message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	     message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	     message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	     message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	     message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	     message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	     message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	     message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	     message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	     message.guild.members.get("160039731877511168").send("This is an automated message. Please refrain from using direct messages from the account, Goldblazez, until direct messages open again. Thank you for understanding.")
+	  
+ }
 
 
 });
